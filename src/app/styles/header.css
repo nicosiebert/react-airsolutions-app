@@ -1,19 +1,10 @@
-* {
-  max-width: 100%;
-  box-sizing: border-box !important;
-}
-body {
-  margin: 0;
-  padding: 0;
-  max-width: 100vw;
-  height: 100vh;
-  box-sizing: border-box;
-}
 .header {
+  position: fixed;
   margin: 0 0 5px 0;
   padding: 10px;
   z-index: 100;
-  max-width: 100%;
+  width: 100vw;
+  max-width: 100vw;
   height: 50px;
   color: #55f;
   background: var(--bg-header);
@@ -45,13 +36,15 @@ body {
   font-weight: 100;
   font-family: "Courier New", Courier, monospace;
 }
-.section {
-  z-index: 90;
-  padding: 30px;
+.notification-ctn {
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
   height: 100%;
-  background: var(--bg-section);
+  margin: 5 20px 0 0;
+  align-items: center;
 }
-.hidden {
-  visibility: hidden;
+.notification-icon {
+  width: 30px;
+  height: 30px;
 }

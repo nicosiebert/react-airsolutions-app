@@ -1,5 +1,6 @@
+import "../styles/section.css";
 let styles = {
-  background: "url('personapng.png')",
+  background: "url('assets/peronas.png')",
   backgroundSize: "auto 100%",
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center",
@@ -12,7 +13,7 @@ function SectionIndex() {
   return (
     <>
       <section className="section-section" style={styles}>
-        <h3>we provide solutions</h3>
+        <h3 className="section-title">we provide solutions</h3>
       </section>
     </>
   );

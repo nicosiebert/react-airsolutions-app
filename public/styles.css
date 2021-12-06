@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+}
 :root {
   --bg-header: #fff;
   --bg-menu: #000;
@@ -5,4 +11,5 @@
   --bg-section: #fff;
   --sh-header: #55f;
   --bg-shadow: #e3e3e3;
+  --bg-footer: #e3e3e3;
 }
